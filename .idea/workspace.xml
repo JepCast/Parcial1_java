@@ -1,30 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="15557917-8806-400e-be1e-6cf80f832c67" name="Changes" comment="" />
+    <list default="true" id="15557917-8806-400e-be1e-6cf80f832c67" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/backgroundapp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logoapp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/parcial/parcial1_java/Scene1.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/parcial/parcial1_java/Scene10.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/parcial/parcial1_java/Scene2.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/parcial/parcial1_java/Scene3.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/parcial/parcial1_java/Scene4.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/parcial/parcial1_java/Scene5.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/parcial/parcial1_java/Scene6.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/parcial/parcial1_java/Scene7.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/parcial/parcial1_java/Scene8.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/parcial/parcial1_java/Scene9.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/parcial/parcial1_java/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parcial/parcial1_java/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/parcial/parcial1_java/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parcial/parcial1_java/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/parcial/parcial1_java/hello-view.fxml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="Class" />
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2TMg9je6iXB6syTt45fmwBVlzIa" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
+    "last_directory_selection": "C:/Universidad 1/Java/Parcial1_java/src/main/java/parcial/parcial1_java",
+    "last_opened_file_path": "C:/Universidad 1/Java/Parcial1_java/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.JavaFX",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Universidad 1\Java\Parcial1_java\src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -33,8 +90,37 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1690858215883</updated>
-      <workItem from="1690858216974" duration="1000" />
+      <workItem from="1690858216974" duration="1350000" />
+      <workItem from="1690859647690" duration="3095000" />
+      <workItem from="1690943360451" duration="1902000" />
+      <workItem from="1690946576534" duration="3395000" />
+      <workItem from="1690949987687" duration="5247000" />
+      <workItem from="1691020185174" duration="4204000" />
+      <workItem from="1691029099375" duration="2203000" />
+      <workItem from="1691073071103" duration="276000" />
+      <workItem from="1691073359022" duration="11441000" />
     </task>
+    <task id="LOCAL-00001" summary="Inicie agregando un icono al programa y el nombre que recibirá mi programa por ahora, con comentaríos para mi auto ayuda de lo que hace cada parte.">
+      <option name="closed" value="true" />
+      <created>1690858524916</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1690858524916</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Inicie agregando un icono al programa y el nombre que recibirá mi programa por ahora, con comentaríos para mi auto ayuda de lo que hace cada parte." />
+    <option name="LAST_COMMIT_MESSAGE" value="Inicie agregando un icono al programa y el nombre que recibirá mi programa por ahora, con comentaríos para mi auto ayuda de lo que hace cada parte." />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
