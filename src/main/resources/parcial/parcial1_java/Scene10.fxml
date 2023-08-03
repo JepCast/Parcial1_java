@@ -6,13 +6,31 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuItem?>
 <AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="parcial.parcial1_java.HelloController">
     <ProgressBar layoutX="75.0" layoutY="434.0" prefHeight="20.0" prefWidth="350.0" progress="1" />
-    <ProgressIndicator layoutX="425.0" layoutY="28.0" progress="1" />
-    <Button layoutX="210.0" layoutY="380.0" mnemonicParsing="false" onAction="#switchToScene1" text="Ir a inicio">
+    <ProgressIndicator layoutX="445.0" layoutY="45.0" progress="1" />
+    <Button layoutX="210.0" layoutY="380.0" mnemonicParsing="false" onAction="#switchToScene1" text="Ir a inicio" style="-fx-background-color:#EDECF2;">
         <font>
             <Font size="15.0" />
         </font>
     </Button>
+
+    <MenuBar layoutY="-1.0" prefHeight="14.0" prefWidth="500.0">
+        <menus>
+            <Menu mnemonicParsing="false" text="File">
+                <items>
+                    <MenuItem mnemonicParsing="false" text="Close" />
+                </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Help">
+                <items>
+                    <MenuItem mnemonicParsing="false" text="About" />
+                </items>
+            </Menu>
+        </menus>
+    </MenuBar>
 
 </AnchorPane>

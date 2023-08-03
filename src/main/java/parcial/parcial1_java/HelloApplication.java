@@ -21,9 +21,6 @@ public class HelloApplication extends Application {
         Parent root= FXMLLoader.load(getClass().getResource("Scene1.fxml"));
         Scene scene = new Scene(root);
 
-        //FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("Scene1.fxml"));
-        //Scene scene = new Scene(fxmlLoader.load(), 320, 240);
-
         Image icon = new Image("C:\\Universidad 1\\Java\\Parcial1_java\\src\\iconapp.jpeg"); // This is the icon of the window
         stage.getIcons().add(icon); //And this adds the icon to the window
         stage.setWidth(500); //This is the width of the window
@@ -31,10 +28,8 @@ public class HelloApplication extends Application {
         final String[] username = new String[1];
 
 
-            // Crear el TextField
-            TextField inNameTexField = new TextField();
 
-            // Asignar un evento para guardar el texto al precionar Enter
+            TextField inNameTexField = new TextField();
             inNameTexField.setOnAction(e -> {
 
                 username[0] = inNameTexField.getText();
@@ -42,7 +37,7 @@ public class HelloApplication extends Application {
 
             Button AcceptButton = new Button("Aceptar");
             AcceptButton.setOnAction(e -> {
-                username[0] = inNameTexField.getText(); // Guardar el nombre de usuario ingresado
+                username[0] = inNameTexField.getText();
 
             });
         stage.setScene(scene);
