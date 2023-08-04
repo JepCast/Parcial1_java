@@ -140,7 +140,10 @@ public class HelloController implements Initializable {
                 FeelingLabel.setText(Integer.toString(feeling));
             }
         });
-
-
     }
+
+
+
+
+
 }

@@ -23,7 +23,7 @@
             <Font name="MS Gothic" size="20.0" />
          </font>
       </Button>
-      <TextField fx:id="inNameTexField" layoutX="135.0" layoutY="254.0" onAction="#inNameText" prefHeight="25.0" prefWidth="231.0" style="-fx-background-color: black;">
+      <TextField fx:id="inNameTexField" layoutX="135.0" layoutY="254.0" onAction="#inNameText" prefHeight="25.0" prefWidth="231.0" style="-fx-background-color: gray;">
          <font>
             <Font name="MS Gothic" size="13.0" />
          </font>
@@ -38,9 +38,6 @@
    <MenuBar layoutX="-2.0" layoutY="-1.0" prefHeight="28.0" prefWidth="502.0">
      <menus>
          <Menu mnemonicParsing="false" text="｡◕‿◕｡">
-           <items>
-             <MenuItem mnemonicParsing="false" text="Action 1" />
-           </items>
          </Menu>
        <Menu mnemonicParsing="false" text="File">
          <items>
@@ -56,8 +53,16 @@
    </MenuBar>
    <SplitMenuButton layoutX="209.0" layoutY="383.0" mnemonicParsing="false" style="-fx-background-color: black; -fx-border-color: black;" text="Escenas">
      <items>
-       <MenuItem mnemonicParsing="false" text="Action 1" />
-       <MenuItem mnemonicParsing="false" text="Action 2" />
+         <MenuItem mnemonicParsing="false" text="Escena 1" onAction="#switchToScene1"/>
+         <MenuItem mnemonicParsing="false" text="Escena 2" onAction="#switchToScene2"/>
+         <MenuItem mnemonicParsing="false" text="Escena 3" onAction="#switchToScene3"/>
+         <MenuItem mnemonicParsing="false" text="Escena 4" onAction="#switchToScene4"/>
+         <MenuItem mnemonicParsing="false" text="Escena 5" onAction="#switchToScene5"/>
+         <MenuItem mnemonicParsing="false" text="Escena 6" onAction="#switchToScene6"/>
+         <MenuItem mnemonicParsing="false" text="Escena 7" onAction="#switchToScene7"/>
+         <MenuItem mnemonicParsing="false" text="Escena 8" onAction="#switchToScene8"/>
+         <MenuItem mnemonicParsing="false" text="Escena 9" onAction="#switchToScene9"/>
+         <MenuItem mnemonicParsing="false" text="Escena 10" onAction="#switchToScene10"/>
      </items>
       <font>
          <Font name="MS Gothic" size="12.0" />

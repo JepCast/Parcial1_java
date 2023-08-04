@@ -44,10 +44,7 @@
 
     <MenuBar layoutY="-1.0" prefHeight="14.0" prefWidth="500.0">
         <menus>
-            <Menu mnemonicParsing="false" text="File">
-                <items>
-                    <MenuItem mnemonicParsing="false" text="Close" />
-                </items>
+            <Menu mnemonicParsing="false" text="｡◕‿◕｡">
             </Menu>
             <Menu mnemonicParsing="false" text="Help">
                 <items>
@@ -58,8 +55,16 @@
     </MenuBar>
    <SplitMenuButton layoutX="208.0" layoutY="357.0" mnemonicParsing="false" style="-fx-background-color: black; -fx-border-color: black;" text="Escenas">
       <items>
-         <MenuItem mnemonicParsing="false" text="Action 1" />
-         <MenuItem mnemonicParsing="false" text="Action 2" />
+          <MenuItem mnemonicParsing="false" text="Escena 1" onAction="#switchToScene1"/>
+          <MenuItem mnemonicParsing="false" text="Escena 2" onAction="#switchToScene2"/>
+          <MenuItem mnemonicParsing="false" text="Escena 3" onAction="#switchToScene3"/>
+          <MenuItem mnemonicParsing="false" text="Escena 4" onAction="#switchToScene4"/>
+          <MenuItem mnemonicParsing="false" text="Escena 5" onAction="#switchToScene5"/>
+          <MenuItem mnemonicParsing="false" text="Escena 6" onAction="#switchToScene6"/>
+          <MenuItem mnemonicParsing="false" text="Escena 7" onAction="#switchToScene7"/>
+          <MenuItem mnemonicParsing="false" text="Escena 8" onAction="#switchToScene8"/>
+          <MenuItem mnemonicParsing="false" text="Escena 9" onAction="#switchToScene9"/>
+          <MenuItem mnemonicParsing="false" text="Escena 10" onAction="#switchToScene10"/>
       </items>
       <font>
          <Font name="MS Gothic" size="12.0" />
