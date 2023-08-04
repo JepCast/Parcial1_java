@@ -1,5 +1,8 @@
 package parcial.parcial1_java;
 
+import javafx.animation.Animation;
+import javafx.animation.KeyFrame;
+import javafx.animation.Timeline;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.event.ActionEvent;
@@ -14,16 +17,22 @@ import javafx.scene.control.Label;
 import javafx.scene.control.Slider;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
+import javafx.util.Duration;
 
 import java.io.IOException;
 import java.net.URL;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.EventObject;
 import java.util.ResourceBundle;
 
 
 public class HelloController implements Initializable {
 
     public Button AcceptButton1;
+
     private Stage stage;
     private Scene scene;
     private Parent root;
@@ -87,20 +96,6 @@ public class HelloController implements Initializable {
         stage.setScene(scene);
         stage.show();
     }
-    public void switchToScene9(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("Scene9.fxml"));
-        stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-        scene = new Scene(root);
-        stage.setScene(scene);
-        stage.show();
-    }
-    public void switchToScene10(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("Scene10.fxml"));
-        stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-        scene = new Scene(root);
-        stage.setScene(scene);
-        stage.show();
-    }
 
 
 
@@ -143,7 +138,23 @@ public class HelloController implements Initializable {
     }
 
 
+    public Label clockLabel;
+    private void updateClock() {
+        SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss");
+        Date now = new Date();
+        String time = sdf.format(now);
+        clockLabel.setText(time);
+    }
+    public void Scene8(ActionEvent actionEvent) throws IOException {
+        // Crear un Label para mostrar la hora actual
+        clockLabel = new Label();
+        clockLabel.setStyle("-fx-font-size: 24px;");
 
+        // Actualizar la hora cada segundo utilizando un Timeline
+        Timeline timeline = new Timeline(new KeyFrame(Duration.seconds(1), event -> updateClock()));
+        timeline.setCycleCount(Animation.INDEFINITE);
+        timeline.play();
+    }
 
 
 }

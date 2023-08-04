@@ -19,8 +19,8 @@
       </font>
    </Label>
    <DatePicker layoutX="163.0" layoutY="250.0" />
-   <ProgressBar layoutX="75.0" layoutY="434.0" prefHeight="20.0" prefWidth="350.0" progress="0.2" />
-   <ProgressIndicator layoutX="445.0" layoutY="45.0" progress="0.1" />
+   <ProgressBar layoutX="75.0" layoutY="434.0" prefHeight="20.0" prefWidth="350.0" progress="0.250" />
+   <ProgressIndicator layoutX="445.0" layoutY="45.0" progress="0.250" />
    <Button layoutX="299.0" layoutY="306.0" mnemonicParsing="false" onAction="#switchToScene3" style="-fx-background-color: EDECF2; -fx-border-color: black;" text="🡲">
       <font>
          <Font size="15.0" />
@@ -58,8 +58,7 @@
          <MenuItem mnemonicParsing="false" text="Escena 6" onAction="#switchToScene6"/>
          <MenuItem mnemonicParsing="false" text="Escena 7" onAction="#switchToScene7"/>
          <MenuItem mnemonicParsing="false" text="Escena 8" onAction="#switchToScene8"/>
-         <MenuItem mnemonicParsing="false" text="Escena 9" onAction="#switchToScene9"/>
-         <MenuItem mnemonicParsing="false" text="Escena 10" onAction="#switchToScene10"/>
+
       </items>
       <font>
          <Font name="MS Gothic" size="12.0" />

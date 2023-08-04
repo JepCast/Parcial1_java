@@ -12,8 +12,8 @@
 <?import javafx.scene.text.Font?>
 
 <AnchorPane prefHeight="500.0" prefWidth="500.0" style="-fx-border-color: black;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="parcial.parcial1_java.HelloController">
-    <ProgressBar layoutX="75.0" layoutY="434.0" prefHeight="20.0" prefWidth="350.0" progress="0.4" />
-    <ProgressIndicator layoutX="445.0" layoutY="45.0" progress="0.4" />
+    <ProgressBar layoutX="75.0" layoutY="434.0" prefHeight="20.0" prefWidth="350.0" progress="0.500" />
+    <ProgressIndicator layoutX="445.0" layoutY="45.0" progress="0.500" />
     <Label layoutX="75.0" layoutY="189.0" text="Parece que has tenido un día">
         <font>
             <Font name="MS Gothic" size="25.0" />
@@ -62,8 +62,7 @@
           <MenuItem mnemonicParsing="false" text="Escena 6" onAction="#switchToScene6"/>
           <MenuItem mnemonicParsing="false" text="Escena 7" onAction="#switchToScene7"/>
           <MenuItem mnemonicParsing="false" text="Escena 8" onAction="#switchToScene8"/>
-          <MenuItem mnemonicParsing="false" text="Escena 9" onAction="#switchToScene9"/>
-          <MenuItem mnemonicParsing="false" text="Escena 10" onAction="#switchToScene10"/>
+
       </items>
       <font>
          <Font name="MS Gothic" size="12.0" />
