@@ -13,24 +13,24 @@
 <?import javafx.scene.text.Font?>
 
 <AnchorPane prefHeight="500.0" prefWidth="500.0" style="-fx-border-color: black;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="parcial.parcial1_java.HelloController">
-   <Label alignment="CENTER" contentDisplay="CENTER" layoutX="128.0" layoutY="212.0" prefHeight="28.0" prefWidth="244.0" text="Inserta tu nombre:" textAlignment="CENTER">
+   <Label alignment="CENTER" contentDisplay="CENTER" layoutX="127.0" layoutY="183.0" prefHeight="28.0" prefWidth="244.0" text="Inserta tu nombre:" textAlignment="CENTER">
          <font>
             <Font name="MS Gothic" size="26.0" />
          </font>
       </Label>
-      <Button fx:id="AcceptButton1" contentDisplay="CENTER" layoutX="202.0" layoutY="293.0" mnemonicParsing="false" onAction="#switchToScene2" style="-fx-background-color: EDECF2; -fx-border-color: black;" text="Aceptar" textAlignment="CENTER">
+      <Button fx:id="AcceptButton1" contentDisplay="CENTER" layoutX="188.0" layoutY="271.0" mnemonicParsing="false" onAction="#switchToScene2" prefHeight="37.0" prefWidth="135.0" style="-fx-background-color: EDECF2; -fx-border-color: black;" text="Aceptar" textAlignment="CENTER">
          <font>
             <Font name="MS Gothic" size="20.0" />
          </font>
       </Button>
-      <TextField fx:id="inNameTexField" layoutX="135.0" layoutY="254.0" onAction="#inNameText" prefHeight="25.0" prefWidth="231.0" style="-fx-background-color: gray;">
+      <TextField fx:id="inNameTexField" layoutX="134.0" layoutY="225.0" onAction="#inNameText" prefHeight="25.0" prefWidth="231.0" style="-fx-background-color: gray;">
          <font>
             <Font name="MS Gothic" size="13.0" />
          </font>
       </TextField>
       <ProgressBar layoutX="75.0" layoutY="440.0" prefHeight="20.0" prefWidth="350.0" progress="0.125" />
       <ProgressIndicator layoutX="445.0" layoutY="45.0" progress="0.125" />
-      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="128.0" layoutY="173.0" prefHeight="28.0" prefWidth="244.0" text="Bienvenido" textAlignment="CENTER">
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="127.0" layoutY="144.0" prefHeight="28.0" prefWidth="244.0" text="Bienvenido" textAlignment="CENTER">
          <font>
             <Font name="MS Gothic" size="26.0" />
          </font>
@@ -39,32 +39,35 @@
      <menus>
          <Menu mnemonicParsing="false" text="｡◕‿◕｡">
          </Menu>
-       <Menu mnemonicParsing="false" text="File">
+       <Menu mnemonicParsing="false" text="Opciones">
          <items>
-           <MenuItem mnemonicParsing="false" text="Close" />
-         </items>
-       </Menu>
-       <Menu mnemonicParsing="false" text="Help">
-         <items>
-           <MenuItem mnemonicParsing="false" text="About" />
+             <MenuItem fx:id="nuevv" onAction="#Nuevo" text="Nuevo" />
+             <MenuItem fx:id="abb" onAction="#Abrir" text="Abrir" />
+             <MenuItem fx:id="gua" onAction="#Guardar" text="Guardar" />
+             <MenuItem fx:id="salirr" onAction="#Salir" text="Salir" />
          </items>
        </Menu>
      </menus>
    </MenuBar>
-   <SplitMenuButton layoutX="209.0" layoutY="383.0" mnemonicParsing="false" style="-fx-background-color: black; -fx-border-color: black;" text="Escenas">
+   <SplitMenuButton layoutX="213.0" layoutY="394.0" mnemonicParsing="false" style="-fx-background-color: black; -fx-border-color: black;" text="Escenas">
      <items>
-         <MenuItem mnemonicParsing="false" text="Escena 1" onAction="#switchToScene1"/>
-         <MenuItem mnemonicParsing="false" text="Escena 2" onAction="#switchToScene2"/>
-         <MenuItem mnemonicParsing="false" text="Escena 3" onAction="#switchToScene3"/>
-         <MenuItem mnemonicParsing="false" text="Escena 4" onAction="#switchToScene4"/>
-         <MenuItem mnemonicParsing="false" text="Escena 5" onAction="#switchToScene5"/>
-         <MenuItem mnemonicParsing="false" text="Escena 6" onAction="#switchToScene6"/>
-         <MenuItem mnemonicParsing="false" text="Escena 7" onAction="#switchToScene7"/>
-         <MenuItem mnemonicParsing="false" text="Escena 8" onAction="#switchToScene8"/>
+         <MenuItem mnemonicParsing="false" onAction="#switchToScene1" text="Escena 1" />
+         <MenuItem mnemonicParsing="false" onAction="#switchToScene2" text="Escena 2" />
+         <MenuItem mnemonicParsing="false" onAction="#switchToScene3" text="Escena 3" />
+         <MenuItem mnemonicParsing="false" onAction="#switchToScene4" text="Escena 4" />
+         <MenuItem mnemonicParsing="false" onAction="#switchToScene5" text="Escena 5" />
+         <MenuItem mnemonicParsing="false" onAction="#switchToScene6" text="Escena 6" />
+         <MenuItem mnemonicParsing="false" onAction="#switchToScene7" text="Escena 7" />
+         <MenuItem mnemonicParsing="false" onAction="#switchToScene8" text="Escena 8" />
 
      </items>
       <font>
          <Font name="MS Gothic" size="12.0" />
       </font>
    </SplitMenuButton>
+   <Button fx:id="salir" contentDisplay="CENTER" layoutX="217.0" layoutY="323.0" mnemonicParsing="false" onAction="#exit" style="-fx-background-color: EDECF2; -fx-border-color: black;" text="Salir" textAlignment="CENTER">
+      <font>
+         <Font name="MS Gothic" size="20.0" />
+      </font>
+   </Button>
    </AnchorPane>

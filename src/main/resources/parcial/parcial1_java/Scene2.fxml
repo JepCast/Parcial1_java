@@ -32,18 +32,16 @@
       </font>
    </Button>
 
-   <MenuBar layoutY="-1.0" prefHeight="14.0" prefWidth="500.0">
+   <MenuBar layoutX="-2.0" layoutY="-1.0" prefHeight="28.0" prefWidth="502.0">
       <menus>
-      <Menu mnemonicParsing="false" text="｡◕‿◕｡">
-      </Menu>
-         <Menu mnemonicParsing="false" text="File">
+         <Menu mnemonicParsing="false" text="｡◕‿◕｡">
+         </Menu>
+         <Menu mnemonicParsing="false" text="Opciones">
             <items>
-               <MenuItem mnemonicParsing="false" text="Close" />
-            </items>
-           </Menu>
-         <Menu mnemonicParsing="false" text="Help">
-            <items>
-               <MenuItem mnemonicParsing="false" text="About" />
+               <MenuItem fx:id="new" onAction="#Nuevo" text="Nuevo" />
+               <MenuItem fx:id="open" onAction="#Abrir" text="Abrir" />
+               <MenuItem fx:id="save" onAction="#Guardar" text="Guardar" />
+               <MenuItem fx:id="exit" onAction="#Salir" text="Salir" />
             </items>
          </Menu>
       </menus>

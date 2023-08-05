@@ -13,38 +13,41 @@
 <AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="parcial.parcial1_java.HelloController">
     <ProgressBar layoutX="75.0" layoutY="434.0" prefHeight="20.0" prefWidth="350.0" progress="1" />
     <ProgressIndicator layoutX="445.0" layoutY="45.0" progress="1" />
-    <Button layoutX="209.0" layoutY="304.0" mnemonicParsing="false" onAction="#switchToScene1" style="-fx-background-color: #EDECF2; -fx-border-color: black;" text="Ir a inicio">
+    <Button layoutX="179.0" layoutY="267.0" mnemonicParsing="false" onAction="#switchToScene1" prefHeight="33.0" prefWidth="122.0" style="-fx-background-color: #EDECF2; -fx-border-color: black;" text="Ir a inicio">
         <font>
             <Font size="15.0" />
         </font>
     </Button>
 
-    <MenuBar layoutY="-1.0" prefHeight="14.0" prefWidth="500.0">
+    <MenuBar layoutX="-2.0" layoutY="-1.0" prefHeight="28.0" prefWidth="502.0">
         <menus>
             <Menu mnemonicParsing="false" text="｡◕‿◕｡">
             </Menu>
-            <Menu mnemonicParsing="false" text="File">
+            <Menu mnemonicParsing="false" text="Opciones">
                 <items>
-                    <MenuItem mnemonicParsing="false" text="Close" />
-                </items>
-            </Menu>
-            <Menu mnemonicParsing="false" text="Help">
-                <items>
-                    <MenuItem mnemonicParsing="false" text="About" />
+                    <MenuItem fx:id="new" onAction="#Nuevo" text="Nuevo" />
+                    <MenuItem fx:id="open" onAction="#Abrir" text="Abrir" />
+                    <MenuItem fx:id="save" onAction="#Guardar" text="Guardar" />
+                    <MenuItem fx:id="exit" onAction="#Salir" text="Salir" />
                 </items>
             </Menu>
         </menus>
     </MenuBar>
 
-    <Label layoutX="94.0" layoutY="187.0" text="Muchas gracias por">
+    <Label layoutX="88.0" layoutY="150.0" text="Muchas gracias por">
         <font>
             <Font name="MS Gothic" size="36.0" />
         </font>
     </Label>
-    <Label layoutX="166.0" layoutY="244.0" text="tu tiempo.">
+    <Label layoutX="160.0" layoutY="207.0" text="tu tiempo.">
         <font>
             <Font name="MS Gothic" size="36.0" />
         </font>
     </Label>
+    <Button fx:id="salir" contentDisplay="CENTER" layoutX="204.0" layoutY="313.0" mnemonicParsing="false" onAction="#exit" style="-fx-background-color: EDECF2; -fx-border-color: black;" text="Salir" textAlignment="CENTER">
+        <font>
+            <Font name="MS Gothic" size="20.0" />
+        </font>
+    </Button>
 
 </AnchorPane>

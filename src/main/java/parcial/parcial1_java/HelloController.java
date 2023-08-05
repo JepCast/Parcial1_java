@@ -12,10 +12,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.control.Slider;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
@@ -31,6 +28,8 @@ import java.util.ResourceBundle;
 
 public class HelloController implements Initializable {
 
+    @FXML
+    private Button salir;
     public Button AcceptButton1;
 
     private Stage stage;
@@ -61,6 +60,7 @@ public class HelloController implements Initializable {
         stage.setScene(scene);
         stage.show();
     }
+
     public void switchToScene4(ActionEvent event) throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("Scene4.fxml"));
         stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
@@ -68,6 +68,7 @@ public class HelloController implements Initializable {
         stage.setScene(scene);
         stage.show();
     }
+
     public void switchToScene5(ActionEvent event) throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("Scene5.fxml"));
         stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
@@ -75,6 +76,7 @@ public class HelloController implements Initializable {
         stage.setScene(scene);
         stage.show();
     }
+
     public void switchToScene6(ActionEvent event) throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("Scene6.fxml"));
         stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
@@ -82,6 +84,7 @@ public class HelloController implements Initializable {
         stage.setScene(scene);
         stage.show();
     }
+
     public void switchToScene7(ActionEvent event) throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("Scene7.fxml"));
         stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
@@ -89,6 +92,7 @@ public class HelloController implements Initializable {
         stage.setScene(scene);
         stage.show();
     }
+
     public void switchToScene8(ActionEvent event) throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("Scene8.fxml"));
         stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
@@ -96,8 +100,6 @@ public class HelloController implements Initializable {
         stage.setScene(scene);
         stage.show();
     }
-
-
 
 
     public AnchorPane scene1;
@@ -139,12 +141,14 @@ public class HelloController implements Initializable {
 
 
     public Label clockLabel;
+
     private void updateClock() {
         SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss");
         Date now = new Date();
         String time = sdf.format(now);
         clockLabel.setText(time);
     }
+
     public void Scene8(ActionEvent actionEvent) throws IOException {
         // Crear un Label para mostrar la hora actual
         clockLabel = new Label();
@@ -156,5 +160,71 @@ public class HelloController implements Initializable {
         timeline.play();
     }
 
+    public void exit(ActionEvent actionEvent) {
+        // Crear el Alert de confirmación.
+        Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
+        alert.setTitle("Confirmar");
+        alert.setHeaderText(null);
+        alert.setContentText("¿Estás seguro de que quieres salir de la aplicación?");
 
+        // Mostrar el Alert y esperar a que el usuario haga una elección.
+        ButtonType result = alert.showAndWait().orElse(ButtonType.CANCEL);
+
+        // Si el usuario hace clic en "Aceptar", cierra la aplicación.
+        if (result == ButtonType.OK) {
+            System.exit(0);
+        }
+    }
+
+
+    public void Nuevo(ActionEvent actionEvent) {
+        // Crear el Alert de confirmación.
+        Alert alertnew = new Alert(Alert.AlertType.CONFIRMATION);
+        alertnew.setTitle("Easter Egg");
+        alertnew.setHeaderText(null);
+        alertnew.setContentText("Las patatas aún siguen trabajando en esto ｡◕‿◕｡");
+
+        // Mostrar el Alert y esperar a que el usuario haga una elección.
+        ButtonType result = alertnew.showAndWait().orElse(ButtonType.CANCEL);
+
+    }
+
+    public void Abrir(ActionEvent actionEvent) {
+        // Crear el Alert de confirmación.
+        Alert alertopen = new Alert(Alert.AlertType.CONFIRMATION);
+        alertopen.setTitle("Easter Egg");
+        alertopen.setHeaderText(null);
+        alertopen.setContentText("Las patatas aún siguen trabajando en esto ｡◕‿◕｡");
+
+        // Mostrar el Alert y esperar a que el usuario haga una elección.
+        ButtonType result = alertopen.showAndWait().orElse(ButtonType.CANCEL);
+
+    }
+
+    public void Guardar(ActionEvent actionEvent) {
+        // Crear el Alert de confirmación.
+        Alert alertsave = new Alert(Alert.AlertType.CONFIRMATION);
+        alertsave.setTitle("Easter Egg");
+        alertsave.setHeaderText(null);
+        alertsave.setContentText("Las patatas aún siguen trabajando en esto ｡◕‿◕｡");
+
+        // Mostrar el Alert y esperar a que el usuario haga una elección.
+        ButtonType result = alertsave.showAndWait().orElse(ButtonType.CANCEL);
+    }
+
+    public void Salir(ActionEvent actionEvent) {
+        // Crear el Alert de confirmación.
+        Alert alertmenu = new Alert(Alert.AlertType.CONFIRMATION);
+        alertmenu.setTitle("Confirmar");
+        alertmenu.setHeaderText(null);
+        alertmenu.setContentText("¿Estás seguro de que quieres salir de la aplicación?");
+
+        // Mostrar el Alert y esperar a que el usuario haga una elección.
+        ButtonType result = alertmenu.showAndWait().orElse(ButtonType.CANCEL);
+
+        // Si el usuario hace clic en "Aceptar", cierra la aplicación.
+        if (result == ButtonType.OK) {
+            System.exit(0);
+        }
+    }
 }

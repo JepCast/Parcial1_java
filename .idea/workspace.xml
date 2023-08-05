@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15557917-8806-400e-be1e-6cf80f832c67" name="Changes" comment="Algunos cambios estetcicos y la implemenctación de un SplitMeniButton">
+    <list default="true" id="15557917-8806-400e-be1e-6cf80f832c67" name="Changes" comment="Elimine algunas escenas innecesarias y ordene algunos puntos">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/parcial/parcial1_java/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parcial/parcial1_java/HelloController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/parcial/parcial1_java/Scene1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/parcial/parcial1_java/Scene1.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/parcial/parcial1_java/Scene10.fxml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/parcial/parcial1_java/Scene2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/parcial/parcial1_java/Scene2.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/parcial/parcial1_java/Scene3.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/parcial/parcial1_java/Scene3.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/parcial/parcial1_java/Scene4.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/parcial/parcial1_java/Scene4.fxml" afterDir="false" />
@@ -16,7 +16,6 @@
       <change beforePath="$PROJECT_DIR$/src/main/resources/parcial/parcial1_java/Scene6.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/parcial/parcial1_java/Scene6.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/parcial/parcial1_java/Scene7.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/parcial/parcial1_java/Scene7.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/parcial/parcial1_java/Scene8.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/parcial/parcial1_java/Scene8.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/parcial/parcial1_java/Scene9.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,10 +38,13 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="Use Maven wrapper" />
-        <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2TMg9je6iXB6syTt45fmwBVlzIa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -68,7 +70,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -100,7 +102,11 @@
       <workItem from="1691108709611" duration="153000" />
       <workItem from="1691108889575" duration="99000" />
       <workItem from="1691123139372" duration="1616000" />
-      <workItem from="1691174394450" duration="997000" />
+      <workItem from="1691174394450" duration="1760000" />
+      <workItem from="1691177016447" duration="46000" />
+      <workItem from="1691177755837" duration="93000" />
+      <workItem from="1691177893693" duration="23000" />
+      <workItem from="1691204357932" duration="2330000" />
     </task>
     <task id="LOCAL-00001" summary="Inicie agregando un icono al programa y el nombre que recibirá mi programa por ahora, con comentaríos para mi auto ayuda de lo que hace cada parte.">
       <option name="closed" value="true" />
@@ -134,11 +140,30 @@
       <option name="project" value="LOCAL" />
       <updated>1691108755215</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Elimine algunas escenas innecesarias y ordene algunos puntos">
+      <option name="closed" value="true" />
+      <created>1691175526088</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1691175526088</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -146,7 +171,8 @@
     <MESSAGE value="Agregue diversas escenas con diversos botones para el cambio y movimiento entre estas" />
     <MESSAGE value="Agregue botones y edite algunos colores" />
     <MESSAGE value="Algunos cambios estetcicos y la implemenctación de un SplitMeniButton" />
-    <option name="LAST_COMMIT_MESSAGE" value="Algunos cambios estetcicos y la implemenctación de un SplitMeniButton" />
+    <MESSAGE value="Elimine algunas escenas innecesarias y ordene algunos puntos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Elimine algunas escenas innecesarias y ordene algunos puntos" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
