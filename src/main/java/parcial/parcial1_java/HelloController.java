@@ -129,25 +129,7 @@ public class HelloController implements Initializable {
         });
     }
 
-    public Label clockLabel;
 
-    private void updateClock() {
-        SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss");
-        Date now = new Date();
-        String time = sdf.format(now);
-        clockLabel.setText(time);
-    }
-
-    public void Scene8(ActionEvent actionEvent) throws IOException {
-        // Crear un Label para mostrar la hora actual
-        clockLabel = new Label();
-        clockLabel.setStyle("-fx-font-size: 24px;");
-
-        // Actualizar la hora cada segundo utilizando un Timeline
-        Timeline timeline = new Timeline(new KeyFrame(Duration.seconds(1), event -> updateClock()));
-        timeline.setCycleCount(Animation.INDEFINITE);
-        timeline.play();
-    }
 
     public void exit(ActionEvent actionEvent) {
         // Crear el Alert de confirmación.

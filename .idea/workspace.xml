@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15557917-8806-400e-be1e-6cf80f832c67" name="Changes" comment="Agregue unos botones de salida y además modifique un poco un poco la barra de menus agregando diversas opciones en el apartado &quot;Opciones&quot;" />
+    <list default="true" id="15557917-8806-400e-be1e-6cf80f832c67" name="Changes" comment=".">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/parcial/parcial1_java/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parcial/parcial1_java/HelloController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,7 +100,7 @@
       <workItem from="1691177016447" duration="46000" />
       <workItem from="1691177755837" duration="93000" />
       <workItem from="1691177893693" duration="23000" />
-      <workItem from="1691204357932" duration="3315000" />
+      <workItem from="1691204357932" duration="5199000" />
     </task>
     <task id="LOCAL-00001" summary="Inicie agregando un icono al programa y el nombre que recibirá mi programa por ahora, con comentaríos para mi auto ayuda de lo que hace cada parte.">
       <option name="closed" value="true" />
@@ -155,7 +158,31 @@
       <option name="project" value="LOCAL" />
       <updated>1691207977791</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Agregue unos botones de salida y además modifique un poco un poco la barra de menus agregando diversas opciones en el apartado &quot;Opciones&quot;">
+      <option name="closed" value="true" />
+      <created>1691208124784</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1691208124784</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Agregue unos botones de salida y además modifique un poco un poco la barra de menus agregando diversas opciones en el apartado &quot;Opciones&quot;">
+      <option name="closed" value="true" />
+      <created>1691208164122</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1691208164122</updated>
+    </task>
+    <task id="LOCAL-00010" summary=".">
+      <option name="closed" value="true" />
+      <created>1691208528177</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1691208528177</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,7 +207,8 @@
     <MESSAGE value="Algunos cambios estetcicos y la implemenctación de un SplitMeniButton" />
     <MESSAGE value="Elimine algunas escenas innecesarias y ordene algunos puntos" />
     <MESSAGE value="Agregue unos botones de salida y además modifique un poco un poco la barra de menus agregando diversas opciones en el apartado &quot;Opciones&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Agregue unos botones de salida y además modifique un poco un poco la barra de menus agregando diversas opciones en el apartado &quot;Opciones&quot;" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
