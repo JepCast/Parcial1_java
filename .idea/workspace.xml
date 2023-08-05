@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15557917-8806-400e-be1e-6cf80f832c67" name="Changes" comment="Elimine algunas escenas innecesarias y ordene algunos puntos">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="15557917-8806-400e-be1e-6cf80f832c67" name="Changes" comment="Agregue unos botones de salida y además modifique un poco un poco la barra de menus agregando diversas opciones en el apartado &quot;Opciones&quot;">
       <change beforePath="$PROJECT_DIR$/src/main/java/parcial/parcial1_java/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parcial/parcial1_java/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/parcial/parcial1_java/Scene1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/parcial/parcial1_java/Scene1.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/parcial/parcial1_java/Scene2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/parcial/parcial1_java/Scene2.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/parcial/parcial1_java/Scene3.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/parcial/parcial1_java/Scene3.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/parcial/parcial1_java/Scene4.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/parcial/parcial1_java/Scene4.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/parcial/parcial1_java/Scene5.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/parcial/parcial1_java/Scene5.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/parcial/parcial1_java/Scene6.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/parcial/parcial1_java/Scene6.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/parcial/parcial1_java/Scene7.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/parcial/parcial1_java/Scene7.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/parcial/parcial1_java/Scene8.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/parcial/parcial1_java/Scene8.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +30,9 @@
         <option name="mavenHome" value="Use Maven wrapper" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -106,7 +99,7 @@
       <workItem from="1691177016447" duration="46000" />
       <workItem from="1691177755837" duration="93000" />
       <workItem from="1691177893693" duration="23000" />
-      <workItem from="1691204357932" duration="2330000" />
+      <workItem from="1691204357932" duration="2771000" />
     </task>
     <task id="LOCAL-00001" summary="Inicie agregando un icono al programa y el nombre que recibirá mi programa por ahora, con comentaríos para mi auto ayuda de lo que hace cada parte.">
       <option name="closed" value="true" />
@@ -148,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691175526088</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Agregue unos botones de salida y además modifique un poco un poco la barra de menus agregando diversas opciones en el apartado &quot;Opciones&quot;">
+      <option name="closed" value="true" />
+      <created>1691207326267</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1691207326267</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,7 +173,8 @@
     <MESSAGE value="Agregue botones y edite algunos colores" />
     <MESSAGE value="Algunos cambios estetcicos y la implemenctación de un SplitMeniButton" />
     <MESSAGE value="Elimine algunas escenas innecesarias y ordene algunos puntos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Elimine algunas escenas innecesarias y ordene algunos puntos" />
+    <MESSAGE value="Agregue unos botones de salida y además modifique un poco un poco la barra de menus agregando diversas opciones en el apartado &quot;Opciones&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agregue unos botones de salida y además modifique un poco un poco la barra de menus agregando diversas opciones en el apartado &quot;Opciones&quot;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

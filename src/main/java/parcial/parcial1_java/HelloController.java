@@ -14,15 +14,12 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.layout.AnchorPane;
-import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 import javafx.util.Duration;
-
 import java.io.IOException;
 import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.EventObject;
 import java.util.ResourceBundle;
 
 
@@ -109,12 +106,6 @@ public class HelloController implements Initializable {
     @FXML
     private Label AcceptButton;
 
-    @FXML
-    public void AcceptButton1(ActionEvent OnAction) {
-        String nameuser = inNameTexField.getText();
-        AcceptButton.setText("Tu nombre ha sido guardado!");
-    }
-
     public void inNameText(ActionEvent OnEnter) {
         String nameuser = inNameTexField.getText();
         inNameTexField.setText("Bienvenido " + nameuser + "!");
@@ -127,7 +118,6 @@ public class HelloController implements Initializable {
 
     int feeling;
 
-
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         mySlider.valueProperty().addListener(new ChangeListener<Number>() {
@@ -138,7 +128,6 @@ public class HelloController implements Initializable {
             }
         });
     }
-
 
     public Label clockLabel;
 
