@@ -23,7 +23,8 @@
             <Font name="MS Gothic" size="20.0" />
          </font>
       </Button>
-      <TextField fx:id="inNameTexField" layoutX="134.0" layoutY="225.0" onAction="#inNameText" prefHeight="25.0" prefWidth="231.0" style="-fx-background-color: gray;">
+
+    <TextField fx:id="inNameTexField" layoutX="134.0" layoutY="225.0" onAction="#inNameText" prefHeight="25.0" prefWidth="231.0" style="-fx-background-color: gray;">
          <font>
             <Font name="MS Gothic" size="13.0" />
          </font>
